@@ -91,7 +91,7 @@ public class Main {
          scanner.close();
 	 }
 	 private static boolean displayCompanyLogo() {
-	        try (BufferedReader reader = new BufferedReader(new FileReader("\"C:\\Users\\koppu\\OneDrive\\Documents\\Companylogo.txt\""))) {
+	        try (BufferedReader reader = new BufferedReader(new FileReader("C:\\Users\\koppu\\OneDrive\\Documents\\Companylogo.txt"))) {
 	            String line;
 	            while ((line = reader.readLine()) != null) {
 	                System.out.println(line);
